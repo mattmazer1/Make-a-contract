@@ -1,0 +1,40 @@
+import { styled } from "./stitches.config";
+
+export const SuccessMes = styled("div", {
+	position: "absolute",
+	alignItems: "center",
+	marginTop: "5rem",
+	backgroundColor: "#DCFCE7",
+	borderRadius: "0.5rem",
+	paddingTop: "1.25rem",
+	paddingBottom: "1.25rem",
+	paddingLeft: "1.5rem",
+	paddingRight: "1.5rem",
+	marginBottom: "0.75rem",
+	fontSize: "1rem",
+	lineHeight: "1.5rem",
+	textAlign: "center",
+	opacity: "1",
+	fontWeight: "bold",
+	color: "rgb(21, 128, 61, 0.7)",
+	width: "18rem",
+});
+
+export const ErrorMes = styled("div", {
+	position: "absolute",
+	alignItems: "center",
+	marginTop: "5rem",
+	backgroundColor: "#FEE2E2",
+	borderRadius: "0.5rem",
+	paddingTop: "1.25rem",
+	paddingBottom: "1.25rem",
+	paddingLeft: "1.5rem",
+	paddingRight: "1.5rem",
+	marginBottom: "0.75rem",
+	fontSize: "1rem",
+	lineHeight: "1.5rem",
+	textAlign: "center",
+	fontWeight: "bold",
+	color: "rgb(185, 28, 28, 0.7)",
+	width: "18rem",
+});
